@@ -57,22 +57,22 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rails>, [">= 3.1"])
+      s.add_runtime_dependency(%q<rails>, [">= 4.2"])
       s.add_runtime_dependency(%q<dkastner-moneta>)
       s.add_runtime_dependency(%q<factory_girl>, ["~> 4.2.0"])
       s.add_runtime_dependency(%q<warden>, ["~> 1.0"])
-      s.add_runtime_dependency(%q<haml>)
+      s.add_runtime_dependency(%q<haml>, ["~> 4.0.6"])
       s.add_runtime_dependency(%q<hashie>)
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.1.rc8"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_development_dependency(%q<test_engine>, [">= 0"])
     else
-      s.add_dependency(%q<rails>, [">= 3.1"])
+      s.add_dependency(%q<rails>, [">= 4.2"])
       s.add_dependency(%q<dkastner-moneta>)
       s.add_dependency(%q<factory_girl>, ["~> 4.2.0"])
       s.add_dependency(%q<warden>, ["~> 1.0"])
-      s.add_dependency(%q<haml>)
+      s.add_dependency(%q<haml>, ["~> 4.0.6"])
       s.add_dependency(%q<hashie>)
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.1.rc8"])
@@ -80,11 +80,11 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<test_engine>, [">= 0"])
     end
   else
-    s.add_dependency(%q<rails>, [">= 3.1"])
+    s.add_dependency(%q<rails>, [">= 4.2"])
     s.add_dependency(%q<dkastner-moneta>)
     s.add_dependency(%q<factory_girl>, ["~> 4.2.0"])
     s.add_dependency(%q<warden>, ["~> 1.0"])
-    s.add_dependency(%q<haml>)
+    s.add_dependency(%q<haml>, ["~> 4.0.6"])
     s.add_dependency(%q<hashie>)
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.1.rc8"])
