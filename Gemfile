@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem "rails", ">= 3.1"
 gem "dkastner-moneta"
-gem "factory_girl", "~> 4.5.0", :require => false
+gem "factory_girl", "~> 4.4.0", :require => false
 gem "warden", "~> 1.0"
 gem "haml"
 gem "hashie"
