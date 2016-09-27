@@ -43,7 +43,7 @@ GEM
     concurrent-ruby (1.0.2)
     dkastner-moneta (1.2.0)
     erubis (2.7.0)
-    factory_girl (4.2.0)
+    factory_girl (4.7.0)
       activesupport (>= 3.0.0)
     git (1.2.5)
     globalid (0.3.6)
@@ -133,7 +133,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.1.rc8)
   dkastner-moneta
-  factory_girl (~> 4.2.0)
+  factory_girl (~> 4.7.0)
   haml
   hashie
   jeweler (~> 1.8.3)
