@@ -4,7 +4,7 @@ gem "rails", ">= 4.2"
 gem "dkastner-moneta"
 gem "factory_girl", "~> 4.2.0", :require => false
 gem "warden", "~> 1.0"
-gem "haml", "~> 4.0.6"
+gem "haml", "~> 5.0.4"
 gem "hashie"
 
 # Add dependencies to develop your gem here.

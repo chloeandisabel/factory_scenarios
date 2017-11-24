@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "factory_scenarios"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Collin Miller"]
@@ -61,7 +61,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<dkastner-moneta>)
       s.add_runtime_dependency(%q<factory_girl>, ["~> 4.2.0"])
       s.add_runtime_dependency(%q<warden>, ["~> 1.0"])
-      s.add_runtime_dependency(%q<haml>, ["~> 4.0.6"])
+      s.add_runtime_dependency(%q<haml>, ["~> 5.0.4"])
       s.add_runtime_dependency(%q<hashie>)
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.1.rc8"])
@@ -72,7 +72,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<dkastner-moneta>)
       s.add_dependency(%q<factory_girl>, ["~> 4.2.0"])
       s.add_dependency(%q<warden>, ["~> 1.0"])
-      s.add_dependency(%q<haml>, ["~> 4.0.6"])
+      s.add_dependency(%q<haml>, ["~> 5.0.4"])
       s.add_dependency(%q<hashie>)
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.1.rc8"])
@@ -84,7 +84,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<dkastner-moneta>)
     s.add_dependency(%q<factory_girl>, ["~> 4.2.0"])
     s.add_dependency(%q<warden>, ["~> 1.0"])
-    s.add_dependency(%q<haml>, ["~> 4.0.6"])
+    s.add_dependency(%q<haml>, ["~> 5.0.4"])
     s.add_dependency(%q<hashie>)
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.1.rc8"])
