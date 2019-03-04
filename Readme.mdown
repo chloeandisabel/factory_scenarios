@@ -2,9 +2,9 @@
 
 [![Build Status](https://secure.travis-ci.org/collin/factory_scenarios.png)](http://travis-ci.org/collin/factory_scenarios)
 
-Login as users defined in your FactoryGirl factories.
+Login as users defined in your FactoryBot factories.
 
-Preview email while logged in as users defined in your FactoryGirl factories.
+Preview email while logged in as users defined in your FactoryBot factories.
 
 ## Installation
 

@@ -6,7 +6,7 @@ module FactoryScenarios
     end
 
     def self.all
-      FactoryGirl.factories.find_all{|fact| fact.build_class.to_s == FactoryScenarios.config.user_class }.map do |factory|
+      FactoryBot.factories.find_all{|fact| fact.build_class.to_s == FactoryScenarios.config.user_class }.map do |factory|
         new factory
       end
     end

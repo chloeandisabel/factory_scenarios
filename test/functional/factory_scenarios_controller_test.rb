@@ -32,7 +32,7 @@ class FactoryScenariosControllerTest < ActionController::TestCase
 
     setup do
       @path = FactoryScenarios.config.factory_scenarios_moneta_config[:path] = "./test/factory_scenarios.test.yml"
-      @scenario = FactoryScenarios::Scenario.new(FactoryGirl.factories.first)
+      @scenario = FactoryScenarios::Scenario.new(FactoryBot.factories.first)
     end
 
     should "login as user for scenario" do

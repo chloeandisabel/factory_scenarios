@@ -21,7 +21,7 @@ def Object.meta_mock(method, _return)
   (class << self; self end).send(:define_method, method) {|*args| _return }
 end
 
-require "factory_girl"
+require "factory_bot"
 require "active_record"
 
 class ::User
@@ -33,7 +33,7 @@ end
 
 class ::NotUser; end
 
-FactoryGirl.define do
+FactoryBot.define do
   factory :user do; end
   factory :not_user do; end
   factory :user_child, :parent => :user do; end

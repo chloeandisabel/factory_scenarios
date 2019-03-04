@@ -8,7 +8,7 @@ module FactoryScenarios
     property :open_in_iframe
   end
 
-  module ::FactoryGirl
+  module ::FactoryBot
     def self.register_factory(factory, options = {})
       self.factories.class.class_eval {
         def add_forced(item)

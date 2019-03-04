@@ -1,10 +1,10 @@
 require "rails"
-require "factory_girl"
+require "factory_bot"
 require "haml"
 require "warden"
 require "moneta"
 
-Factory = FactoryGirl unless defined?(Factory)
+Factory = FactoryBot unless defined?(Factory)
 
 module FactoryScenarios
   require "factory_scenarios/engine"
